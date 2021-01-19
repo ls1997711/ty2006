@@ -9,36 +9,36 @@ const uglify = require('gulp-uglify');
 
 //优化html
 function fnhtml(){
-    return gulp.src('./src/pages/*.html')
+    return src('./src/pages/*.html')
     .pipe(htmlmin())
-    .pipe(gulp.dest('./dist/pages'));
+    .pipe(dest('./dist/pages'));
 }
 // 优化主页
 function fncopy(){
-    return gulp.src('./src/index.html')
-    .pipe(gulp.dest('./dist'))
+    return src('./src/index.html')
+    .pipe(dest('./dist'))
 }
 // 优化图片
 function fnimg(){
-    return gulp.src('./src/img/*')
+    return src('./src/img/*')
     .pipe(imagemin())
-    .pipe(gulp.dest('./dist/img'))
+    .pipe(dest('./dist/img'))
 }
 //优化css
 function fncss(){
-    return gulp.src('./src/sass/*.scss')
+    return src('./src/sass/*.scss')
     .pipe(sass({outputStyle : 'expanded'}))
     .pipe(cssnano())
     .pipe(rename({suffix : '.min'}))
-    .pipe(gulp.dest('dist/css'))
+    .pipe(dest('dist/css'))
 }
 // 优化js
 function fnJs() {
-    return gulp.src('./src/js/*.js')
+    return src('./src/js/*.js')
         .pipe(babel({ presets: ['@babel/env'] }))
         .pipe(uglify())
         .pipe(rename({suffix : '.min'}))
-        .pipe(gulp.dest('./dist/js'))
+        .pipe(dest('./dist/js'))
 }
 // 监听
 function fnwatch(){
