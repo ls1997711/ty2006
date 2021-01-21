@@ -1,6 +1,6 @@
 @import './public';
 // 公共样式
-.header,.adv,.nav,.classify,.slide,.xg,.rm,.gg,.wrap,.ewm,.tt,.footer,.login{
+.header,.adv,.nav,.classify,.wrap,.ewm,.tt,.footer,.login{
     margin: 0 auto;
     width: 1190px;
 }
@@ -262,7 +262,8 @@
         }
         .l1:hover .p1{
             display:block;
-            border-right: 1px solid #DCDCDC	;
+            border-right: 1px solid #DCDCDC;
+            border-bottom: 1px solid #DCDCDC;
         }
         ul li:nth-child(2) span{
             position: absolute;
