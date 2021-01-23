@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="../css/detail.min.css">
-    <link rel="stylesheet" href="../cssjquery.exzoom.min.css">
+    <link rel="stylesheet" href="../css/jquery.exzoom.min.css">
 </head>
 <body>
     <!-- 顶部 -->
@@ -107,18 +107,86 @@
                     <!--大图区域-->
                     <div class="exzoom_img_box">
                   <ul class="exzoom_img_ul">
-                        <li><img src="../img/"></li>
-                        <li><img src="images/photos/02.jpg"></li>
-                        <li><img src="images/photos/03.jpg"></li>
-                        <li><img src="images/photos/04.jpg"></li>
-                        
+                    <li>
+                        <img src="../img/01.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/02.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/03.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="../img/04.jpg" alt="">
+                    </li>
                       </ul>
                 </div>
-                    <!--缩略图导航-->
-                    <div class="exzoom_nav"></div>
-                    <!--控制按钮-->
-                    <p class="exzoom_btn"> <a href="javascript:void(0);" class="exzoom_prev_btn"> &lt; </a> <a href="javascript:void(0);" class="exzoom_next_btn"> &gt; </a> </p>
-                  </div>
+                <!--缩略图导航-->
+                <div class="exzoom_nav"></div>
+                <!--控制按钮-->
+                <p class="exzoom_btn"> <a href="javascript:void(0);" class="exzoom_prev_btn"> &lt; </a> <a href="javascript:void(0);" class="exzoom_next_btn"> &gt; </a> </p>
+                </div>
+                <div class="lg">
+                    <h2>OPPO A92s 120Hz畅感屏 前置双摄夜景自拍 侧边指纹 双模5G 全面屏拍照智能手机 花呗6期免息</h2>
+                    <h3>
+                        <p>
+                            <span>销售价: </span>
+                            <em>￥2199.00</em>
+                        </p>
+                        <p>
+                            <span>商品评分:<i>☆☆☆☆☆</i>(共0人评论) </span>
+                        </p>
+                    </h3>
+                    <h4>品牌:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;OPPO/欧珀</h4>
+                    <div class="zt">
+                        <p class="col">
+                            <span>颜色:</span>
+                            <a href="javascript:;">黑色</a>
+                            <a href="javascript:;">白色</a>
+                            <a href="javascript:;">粉色</a>
+                        </p>
+                        <p class="mem">
+                            <span>容量:</span>
+                            <a href="javascript:;">8+128G</a>
+                            <a href="javascript:;">8+256G</a>
+                        </p>
+                        <p class="num">
+                            <span>
+                                数量:
+                            </span>
+                                <input type="button" value="-" class="a"><input type="text" name="" id="" placeholder="1" class="input"><input type="button" value="+" class="a">
+                                <i>20</i>
+                        </p>
+                        <p class="btn">
+                            <a href="./cart.html">立即购买</a>
+                            <a href="./cart.html">加入购物车</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="img1">
+                    <div class="top">
+                        <a href="javascript:;" class="buy">商品详情</a>
+                        <a href="javascript:;">商品评论</a>
+                        <a href="javascript:;">商品咨询</a>
+                    </div>
+                    <div class="center">
+                        <span>
+                            <i>品牌:&nbsp; </i>
+                            <em>OPPO/欧珀</em>
+                        </span>
+                        <span>
+                            <i>所属分类:&nbsp; </i>
+                            <em>手机</em>
+                        </span>
+                        <span>
+                            <i>商品编号::&nbsp;</i>
+                            <em>G5F16639F17881</em>
+                        </span>
+                    </div>
+                    <div class="bottom">
+                        <img src="../img/xq.jpg" alt="">
+                    </div>
+                </div>
 
 
 
@@ -320,6 +388,13 @@
         <img src="../img/rz.png" alt="">
     </a>
 </div>
-    
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/jquery.exzoom.min.js">
+</script>
+<script type="text/javascript">
+    $("#exzoom").exzoom({
+        autoPlay: false,
+    });//方法调用，务必在加载完后执行
+</script>
 </body>
 </html>
