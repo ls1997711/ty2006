@@ -95,15 +95,15 @@
             <h2>用户注册</h2>
             <div>
                 <form action="">
-                    <p><span><em>*</em>手机号 :</span><input type="text" name="" id="" placeholder="请输入11位手机号"></p>
-                    <p><span><em>*</em>密码 :</span><input type="password" name="" id="" placeholder="6-20个字符,请不要输入非法字符"></p>
-                    <p><span><em>*</em>确认密码 :</span><input type="password" name="" id="" placeholder="再次填入密码"></p>
-                    <p><span><em>*</em>用户名 :</span><input type="text" name="" id=""></p>
-                    <p><span><em>*</em>QQ :</span><input type="text" name="" id=""></p>
-                    <p><span><em>*</em>邮箱 :</span><input type="text" name="" id=""></p>
+                    <p class="num"><span><em>*</em>手机号 :</span><input type="text" name="" id="" placeholder="请输入11位手机号"><i>请输入11位手机号</i></p>
+                    <p class="pwd"><span><em>*</em>密码 :</span><input type="password" name="" id="" placeholder="6-20个字符,请不要输入非法字符"><i>请输入6-20位字符 </i></p>
+                    <p class="qpwd"><span><em>*</em>确认密码 :</span><input type="password" name="" id="" placeholder="再次填入密码"><i>请确认两次密码一致</i></p>
+                    <p class="nam"><span><em>*</em>用户名 :</span><input type="text" name="" id=""><i>请输入两位以字符</i></p>
+                    <p class="qq"><span><em>*</em>QQ :</span><input type="text" name="" id=""><i>请输入正确QQ号码</i></p>
+                    <p class="eml"><span><em>*</em>邮箱 :</span><input type="text" name="" id=""><i>请输入正确邮箱</i></p>
                     <p class="yzm"><span>验证码 :</span><input type="text" name="" id=""><a href="#">获取短信验证码</a></p>
                     <p class="gou"><input type="checkbox" name="" id="">我已阅读并同意 <a href="#">会员注册协议</a> 和 <a href="#">隐私保护政策</a></p>
-                    <p class="button"><input type="button" value="注&emsp;册"></p>
+                    <p class="button"><input type="button" value="注&emsp;册" class="btn"></p>
                 </form>
             </div>
         </div>
@@ -232,5 +232,9 @@
             <img src="../img/rz.png" alt="">
         </a>
     </div>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery.cookie.min.js"></script>
+    <script src="../js/registor.min.js"></script>
+
 </body>
 </html>

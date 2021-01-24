@@ -97,11 +97,13 @@
              <h3>用户登录</h3>
              <div>
                 <form action="#">
-                    <p>
-                       <input type="text" name="" id="" placeholder="用户名/邮箱地址/手机号">
+                    <p class="num">
+                       <input type="text" name="" id="" placeholder="手机号">
+                       <i>请输入11位手机号</i>
                     </p>
-                    <p>
+                    <p class="pwd">
                        <input type="password" name="" id="" placeholder="填写密码">
+                       <i>请输入6-20位字符</i>
                     </p>
                     <p>
                        <span>
@@ -114,7 +116,7 @@
                        </span>
                     </p>
                     <p>
-                        <input type="button" value="登录">
+                        <input type="button" value="登录" class="btn">
                         <a href="#">忘记密码？</a>
                     </p>
                 </form>
@@ -250,5 +252,8 @@
         <img src="../img/rz.png" alt="">
     </a>
 </div>
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/jquery.cookie.min.js"></script>
+<script src="../js/login.min.js"></script>
 </body>
 </html>
