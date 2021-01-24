@@ -19,6 +19,16 @@
             border-bottom: 1px solid #CCCCCC;
             padding-left: 20px; 
         }
+        p{
+            position: relative;
+        }
+        i{
+            color: red;
+            display: none;
+            position: absolute;
+            top:32px ;
+            font-size: 12px;
+        }
         div p:nth-child(1){
             padding-left: 20px;
             margin-top: 20px;

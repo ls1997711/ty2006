@@ -109,21 +109,28 @@
                             display: inline-block;
                             width: 24px;
                             height: 25px;
+                            box-sizing: content-box;
                             text-align: center;
                             border: 1px solid gray;
                             background: white;
+                            vertical-align: text-top;
                         }
                         & .a:hover{
                             background: gray;
                             color: white;
                         }
                         .input{
+                            vertical-align: text-top;
+                            display: inline-block;
                             width: 30px;
-                            height: 23px;
+                            height: 25px;
+                            margin-right: 0;
+                            // margin-top: 1px;
                             text-align: center;
                             border: 1px solid gray;
                             border-left: none;
                             border-right: none;
+                            background: white;
                         }
                         i{
                             width: 34px;
